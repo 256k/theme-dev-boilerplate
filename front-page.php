@@ -33,7 +33,7 @@ get_header();
           <?php
           if ( have_posts() ) :
             while (have_posts()) : the_post();
-            the_content();
+            the_excerpt();
           endwhile;
         endif;
             ?>
@@ -86,7 +86,7 @@ Web = 7
         <div class="row">
         <!--  WP_query loop-->
         <?php
-        $WebPosts = new WP_Query('cat=7&posts_per_page=3');
+        $WebPosts = new WP_Query('cat=7&posts_per_page=2');
         if ($WebPosts-> have_posts()) :
           while ( $WebPosts-> have_posts()) : $WebPosts->  the_post();
               ?>

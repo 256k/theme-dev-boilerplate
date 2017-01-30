@@ -7,7 +7,7 @@ if ( have_posts() ) :
   while ( have_posts() ) : the_post(); ?>
   <div class="blog-page">
 
-  <a href="<?php the_permalink(); ?>"><h1> <?php the_title(); ?></h1> </a>
+  <a href="<?php the_permalink(); ?>"><h1>working? <?php the_title(); ?></h1> </a>
   <p>
     <?php the_content();?>
   </p>

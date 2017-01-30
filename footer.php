@@ -1,7 +1,7 @@
 
 
           <div class="footer">
-            <p>
+            <p> hi footer!
             <?php
             $args = array(
               'theme_location' => 'footer'
@@ -10,6 +10,7 @@
             </p>
           </div>
 <?php wp_footer(); ?>
+
 </body>
 
 </html>
