@@ -83,16 +83,17 @@ Web = 7
                 </p>
             </div>
         </div>
-        <div class="row">
+        <div class="row align-top">
         <!--  WP_query loop-->
         <?php
-        $WebPosts = new WP_Query('cat=7&posts_per_page=2');
+
+        $WebPosts = new WP_Query('cat=7&posts_per_page=6');
         if ($WebPosts-> have_posts()) :
           while ( $WebPosts-> have_posts()) : $WebPosts->  the_post();
               ?>
 
 
-              <div class="col-small-12 col-4 box-col">
+              <div class="column">
                   <a href="<?php the_permalink(); ?>"><h2 style="background-image: url('<?php echo wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' )['0'];?>')"><?php the_title(); ?></h2></a>
                   <p><?php the_excerpt(); ?></p>
               </div>

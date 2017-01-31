@@ -1,4 +1,11 @@
-@import '../node_modules/foundation-sites/scss/foundation';
-body {
-  background: inherit;
+/*
+Theme Name: 256k theme
+Author: Fayek Helmi
+Description: 256klabs theme
+Version: 2.0
+*/
+@import 'foundation';
+
+.testclass {
+  background: red;
 }
