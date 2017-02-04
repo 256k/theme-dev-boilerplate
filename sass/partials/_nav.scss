@@ -2,6 +2,7 @@
   background: $dark-color;
 }
 .nav {
+  padding: 0 20px;
   width: 100%;
   max-width: $max-width;
   margin: auto;
@@ -40,7 +41,9 @@
       color: $light-color;
       transition: 0.3s;
       &:hover {
-        transform: translateY(2px);
+        // transform: translateY(2px);
+        border-bottom: $nav-height solid $light-color;
+        color: $dark-color;
       }
     }
   }
@@ -55,6 +58,7 @@
   top: 30px;
   right: 30px;
   display: none;
+  color: $light-color;
 }
 
 @media (max-width: $small-window){

@@ -539,6 +539,7 @@ template {
   background: #242424; }
 
 .nav {
+  padding: 0 20px;
   width: 100%;
   max-width: 1080px;
   margin: auto;
@@ -573,13 +574,15 @@ template {
       color: white;
       transition: 0.3s; }
       .nav ul a:hover {
-        transform: translateY(2px); }
+        border-bottom: 60px solid white;
+        color: #242424; }
 
 .menu-button {
   position: absolute;
   top: 30px;
   right: 30px;
-  display: none; }
+  display: none;
+  color: white; }
   .menu-button:hover {
     cursor: pointer; }
 
