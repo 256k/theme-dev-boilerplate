@@ -1,0 +1,12 @@
+// base styling:
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+  color: $link-color;
+  &:hover {
+    color: $link-color-hover;
+  }
+}
+
+// helper styles:

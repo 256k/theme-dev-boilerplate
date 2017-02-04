@@ -1,0 +1,29 @@
+// Grid Variables
+$max-width: 1080px;
+$small-window: 900px;
+$large-window: 1200px ;
+
+// Typography variables:
+
+$base-font-size: 16px;
+$font-family: sans-serif;
+$light-weight: 100;
+$bold-weight: 700;
+
+
+// Colors:
+
+$light-color: hsla(0, 0%, 100%, 1);
+$dark-color: hsla(0, 0%, 14%, 1);
+$link-color: hsla(192, 36%, 48%, 1);
+$link-color-hover: hsla(191, 46%, 31%, 1);
+$accent-color: hsla(259, 21%, 54%, 1);
+
+
+// Nav variables:
+$nav-height: 60px;
+$nav-title-color: hsla(0, 0%, 14%, 1);
+$nav-links-color: hsla(0, 0%, 14%, 1);
+$nav-links-color-hover: hsla(0, 0%, 14%, 1);
+$nav-links-background-color: hsla(0, 0%, 14%, 1);
+$nav-links-background-color-hover: hsla(0, 0%, 14%, 1);

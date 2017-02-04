@@ -4,8 +4,20 @@ Author: Fayek Helmi
 Description: 256klabs theme
 Version: 2.0
 */
-@import 'foundation';
 
-.testclass {
+// NORMALIZE THE PAGE:
+@import "_normalize";
+
+// IMPORT PROJECT VARIABLES:
+@import "_variables";
+
+// IMPORT GRID SYSTEM:
+@import "_grid";
+
+// IMPORT PARTIALS:
+@import "partials/partials";
+
+
+.test-class{
   background: red;
 }

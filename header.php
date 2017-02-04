@@ -11,46 +11,18 @@
 
 <body <?php body_class(); ?>>
 
-  <div class="top-bar">
-    <div class="top-bar-title">
-      <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
-        <button class="menu-icon dark" type="button" data-toggle></button>
-      </span>
-      <strong>Site Title</strong>
-    </div>
-    <div id="responsive-menu">
-      <div class="top-bar-left">
-        <ul class="dropdown menu" data-dropdown-menu>
-          <li>
-            <a href="#">One</a>
-            <ul class="menu vertical">
-              <li><a href="#">One</a></li>
-              <li><a href="#">Two</a></li>
-              <li><a href="#">Three</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Two</a></li>
-          <li><a href="#">Three</a></li>
-        </ul>
-      </div>
-      <div class="top-bar-right">
-        <ul class="menu">
-          <li><input type="search" placeholder="Search"></li>
-          <li><button type="button" class="button">Search</button></li>
-        </ul>
-      </div>
-    </div>
+
+  <div class="menu-button">
+    <
   </div>
 
-
-<!--
-
-<div class="row align-middle">
+<div class="row-full nav-row">
 
 
-            <h1 class="nav-title column"><a href="<?php bloginfo('url') ?>"><?php bloginfo('name'); ?></a>
-      </h1>
-      <div class="column">
+<div class="nav">
+
+            <a href="<?php bloginfo('url'); ?>"><h1 class="nav-title"><?php bloginfo('name'); ?></h1></a>
+
 
 
             <?php
@@ -62,7 +34,9 @@
             );
 
             wp_nav_menu( $args ); ?>
-            </div>
 
-</div> -->
+
+</div>
+
+</div>
 <!-- end of nav -->

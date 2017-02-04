@@ -1,7 +1,12 @@
 
 jQuery(document).ready(function($){
 
-// ADD JQUERY CODE HERE
+
+$(".menu-button").on('click', function(){
+
+  $(".nav div").toggleClass('nav-slide-down');
+  $(".menu-button").toggleClass('menu-btn-rotate');
+});
 
 });
 
