@@ -1,0 +1,51 @@
+body {
+  background: $light-color;
+  // background-repeat: repeat;
+}
+
+//  hero section:
+
+.hero-header {
+  font-size: 10rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  min-height: 80vh ;
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  color: hsla(0, 0, 100, 0.7);
+  box-shadow: inset 0 0 0 1000px hsla(0,0,0, 0.35);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+
+.title-background {
+  background-image: url('assets/bk2.jpg');
+
+}
+
+.web-background {
+  background-image: url('assets/bk3.jpg');
+
+}
+
+.title-background {
+  background-image: url('assets/bk2.jpg');
+
+}
+
+.title-background {
+  background-image: url('assets/bk2.jpg');
+
+}
+
+.title-background {
+  background-image: url('assets/bk2.jpg');
+
+}

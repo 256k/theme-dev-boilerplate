@@ -4,12 +4,12 @@ get_header();
 
 ?>
 
-    <div id="home" class="hero-title hero">
-        <div class="fullsize">
+    <div id="homepage" class="row-full">
+        <div class="col-12 hero">
 
 
 
-            <h1 class="hero-header"><?php bloginfo('name'); ?></h1>
+            <h1 class="hero-header title-background"><?php bloginfo('name'); ?></h1>
             <?php
               if (! empty(bloginfo('description'))) :
              ?>
@@ -28,16 +28,19 @@ get_header();
 
 
     <div class="row">
-        <h1 class="col-12">
-          <p>
+        <h1 class="large-paragraph col-12">
           <?php
           if ( have_posts() ) :
-            while (have_posts()) : the_post();
-            the_excerpt();
+            while (have_posts()) : the_post();?>
+<p class="align-justify">
+              <?php echo get_the_content(); ?>
+
+</p>
+            <?php
           endwhile;
-        endif;
+          endif;
             ?>
-          </p>
+
     </div>
 
 
@@ -45,31 +48,31 @@ get_header();
     <!-- ================================================== -->
 
 
-    <div id="projects" class="projects-title hero">
-        <h1 class="hero-header">Projects</h1>
+    <div class="row-full">
+      <div id="web" class="col-12">
+          <h1 class="hero-header web-background">Web</h1>
+      </div>
     </div>
 
 
     <!-- ================================================== -->
 
+    <!-- categories IDs
+    Blog = 5
+    geektalk = 10
+    Photography = 11
+    Projects = 6
+    Electronics = 8
+    Music = 9
+    Web = 7
 
-    <div class="project-box ">
+    -->
+    <div class="">
         <div class="row">
             <h1 class="box-headline">Latest Projects</h1>
         </div>
 
-<!-- categories IDs
-Blog = 5
-geektalk = 10
-Photography = 11
-Projects = 6
-Electronics = 8
-Music = 9
-Web = 7
 
-
-
--->
 
 
 

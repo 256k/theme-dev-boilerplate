@@ -1,13 +1,29 @@
-// Grid Variables
-$max-width: 1080px;
-$small-window: 900px;
-$large-window: 1200px ;
+
 
 
 // grid structure
 * {
   box-sizing: border-box;
+  text-align: justify;
 }
+html, body {
+  height: 100%;
+  width: 100%;
+}
+// text alignment
+.align-center {
+  text-align: center;
+}
+.align-left {
+  text-align: left;
+}
+.align-right {
+  text-align: right;
+}
+.align-justify {
+  text-align: justify;
+}
+
 // row variations
 
 .row-full{

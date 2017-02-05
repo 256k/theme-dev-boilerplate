@@ -34,15 +34,17 @@
     a {
       text-align: center;
       text-transform:uppercase;
-      font-weight: $bold-weight;
+      // font-weight: $bold-weight;
       display: block;
       height: $nav-height;
       line-height: $nav-height;
       color: $light-color;
-      transition: 0.3s;
+      box-shadow: inset 0 0 0 $dark-color;
+      transition: all ease 0.3s;
+      letter-spacing: 2px;
       &:hover {
         // transform: translateY(2px);
-        border-bottom: $nav-height solid $light-color;
+        box-shadow: inset 0 -100px 0 $light-color;
         color: $dark-color;
       }
     }
